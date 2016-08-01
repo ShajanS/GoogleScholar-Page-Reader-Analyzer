@@ -2,10 +2,10 @@ package Extractor;
 
 public class Extracti10Index {
   
-  public static void extractIndexValue(String googleScholarURL) {
+  public static String extractIndexValue(String googleScholarURL) {
     String regexHtml = ">i10-index</a>" + "</td>" + 
         "<td class=\"cit-borderleft cit-data\">(.*?)</td>";
-    Extractor.RegexCompiler.extractCodeInfo(regexHtml, googleScholarURL);
+    return Extractor.RegexCompiler.extractCodeInfo(regexHtml, googleScholarURL);
     
    }
   
