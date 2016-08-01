@@ -2,11 +2,11 @@ package Extractor;
 
 public class ExtractPublicationTitle {
 
-  public static void extractTitle(String googleScholarURL) {
+  public static String extractTitle(String googleScholarURL) {
     String regexHtml =
         "<td id=\"col-title\"><a href=\".*?\" "
         + "class=\"cit-dark-large-link\">(.*?)</a>";
-    Extractor.RegexCompiler.extractCodeInfo(regexHtml, googleScholarURL);
+    return Extractor.RegexCompiler.extractCodeInfo(regexHtml, googleScholarURL);
 
   }
 
