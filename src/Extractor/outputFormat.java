@@ -5,9 +5,11 @@ public class outputFormat{
   
   
   public static String outputString(String args[]){
+    String formatedString = "";
+    int totalCoAuthors = 0;
     String inputFiles[] = args[0].split(",");
     for (String inputFile : inputFiles){
-      String formatedString = 
+      formatedString += 
           "-----------------------------------------------------------------------\n"
       + "1. Name of Author:\n\t" + Extractor.ExtractAuthorNames.extractAuthorsName(inputFile) + "\n"
       + "2. Number of All Citations:\n\t" + Extractor.ExtractCitations.extractCitationValue(inputFile) + "\n"
@@ -15,12 +17,16 @@ public class outputFormat{
       + "4. Title of the first 3 publications:\n\t" + Extractor.ExtractPublicationTitle.extractTitle(inputFile) +"\n"
       + "5. Total paper citation (first 5 papers):\n\t" + Extractor.ExtractCitationsPerPublication.extractTotalCitations(inputFile) +"\n"
       + "6. Total Co-Authors:\n\t" + Extractor.ExtractCoAuthors.extractCoAuthorNames(inputFile) +"\n";
- 
       
-      System.out.print(formatedString);
+      totalCoAuthors += Integer.parseInt(Extractor.ExtractCoAuthors.extractCoAuthorNames(inputFile));
 
+      if (inputFile == inputFiles[inputFiles.length-1]){
+        formatedString +=  "-----------------------------------------------------------------------\n"
+            + "7. Co-Author list sorted (Total: " + totalCoAuthors + ")";
+        
+      }
     }
-    return null;
+    return formatedString;
     
   }
 }
