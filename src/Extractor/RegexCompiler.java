@@ -4,7 +4,7 @@ import java.util.regex.Pattern;
 
 public class RegexCompiler {
   
-  public static void extractCodeInfo(String htmlRegex, String googleScholarURL) {
+  public static String extractCodeInfo(String htmlRegex, String googleScholarURL) {
     try {
       
       String rawHTMLString = ExtractHtml.getHTML(googleScholarURL);
@@ -13,13 +13,13 @@ public class RegexCompiler {
       Matcher matcherObject = patternObject.matcher(rawHTMLString);
       
       while (matcherObject.find()) {
-        System.out.println("DEBUG: Authors Name is " + matcherObject.group(1));
+        return matcherObject.group(1);
       }
 
     } catch (Exception e) {
-      System.out.println("malformed URL or cannot open connection to "
-          + "given URL");
+      return "malformed URL or cannot open connection to given URL";
     }
+    return null;
    }
   
 }
