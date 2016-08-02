@@ -18,7 +18,7 @@ public class ExtractCoAuthorNames {
 
       ArrayList<String> coAuthorList = new ArrayList<String>();
 
-      String rawHTMLString = ExtractHtml.getHTML(googleScholarURL);
+      String rawHTMLString = ExtractHtml.extractHTML(googleScholarURL);
       String stringRegex = "<a class=\"cit-dark-link\" "
           + "href=\".*?hl=en\" title=\".*?\">(.*?)</a>";
       Pattern patternObject = Pattern.compile(stringRegex);

@@ -23,7 +23,7 @@ public class ExtractCitationsPerPublication {
     int publicationCounter = 0;
     try {
       // fetch the information located at the given regex
-      String rawHTMLString = ExtractHtml.getHTML(googleScholarURL);
+      String rawHTMLString = ExtractHtml.extractHTML(googleScholarURL);
       // specific regex used to find the citation values
       String stringRegex = "<td id=\"col-citedby\">"
           + "<a class=\"cit-dark-link\" href=\".*?\">(.*?)</a></td>";
@@ -42,8 +42,9 @@ public class ExtractCitationsPerPublication {
 
     } catch (Exception e) {
       // return error is exception is caught
-      return "Error - Citation value(s) cannot be obtained";
+      System.out.print("Error - Citation value(s) cannot be obtained");
     }
+    return null;
 
   }
 

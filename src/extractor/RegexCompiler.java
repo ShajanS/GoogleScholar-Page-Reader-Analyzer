@@ -24,7 +24,7 @@ public class RegexCompiler {
       String googleScholarURL) {
     try {
       // retrieve the html code at the given url
-      String rawHTMLString = ExtractHtml.getHTML(googleScholarURL);
+      String rawHTMLString = ExtractHtml.extractHTML(googleScholarURL);
       // set the specific regex html code to a variable
       String stringRegex = htmlRegex;
       // search throught the html url code to find the matching regex
@@ -37,7 +37,7 @@ public class RegexCompiler {
 
     } catch (Exception e) {
       // return error message if error occurs
-      return "malformed URL or cannot open connection to given URL";
+      System.out.print("malformed URL or cannot open connection to given URL");
     }
     return null;
   }

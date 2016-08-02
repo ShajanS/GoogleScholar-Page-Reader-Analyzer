@@ -23,7 +23,7 @@ public class ExtractPublicationTitle {
     String[] firstThreeTitles = new String[3];
     try {
       // fetch the information located at the given regex
-      String rawHTMLString = ExtractHtml.getHTML(googleScholarURL);
+      String rawHTMLString = ExtractHtml.extractHTML(googleScholarURL);
       // specific regex used to find the title names
       String stringRegex = "<td id=\"col-title\"><a href=\".*?\" "
           + "class=\"cit-dark-large-link\">(.*?)</a>";
