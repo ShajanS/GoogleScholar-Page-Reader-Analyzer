@@ -13,7 +13,6 @@ import org.junit.Test;
  */
 public class ExtractCitationsPerPublicationTest {
   String inputUrl;
-  int sizePublications;
   String publicationCitation;
 
   @Before
