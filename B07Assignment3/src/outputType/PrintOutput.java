@@ -19,8 +19,6 @@ public class PrintOutput {
    */
   public static String outputString(String args[]) {
     String formatedString = "";
-    // variable to keep track of total coauthors
-    int totalCoAuthors = 0;
     // split argument one if more than one url is given
     String inputFiles[] = args[0].split(",");
     ArrayList<String> allCoAuthorNames = new ArrayList<String>();
@@ -45,11 +43,11 @@ public class PrintOutput {
           + extractor.ExtractCitationsPerPublication.extractTotalCitations(
               inputFile)
           + "\n" + "6. Total Co-Authors:\n\t"
-          + extractor.ExtractCoAuthors.extractCoAuthorNames(inputFile) + "\n";
+          + (extractor.ExtractCoAuthorNames.extractCoAuthorNames(inputFile))
+              .size()
+          + "\n";
 
       // append value to total coauthors after each url
-      totalCoAuthors += Integer
-          .parseInt(extractor.ExtractCoAuthors.extractCoAuthorNames(inputFile));
       // remove all duplicates (merging two lists)
       allCoAuthorNames.removeAll(
           extractor.ExtractCoAuthorNames.extractCoAuthorNames(inputFile));
@@ -62,9 +60,10 @@ public class PrintOutput {
       // after the last inputfile url output the co author's names list from all
       // urls found in the argument
       if (inputFile == inputFiles[inputFiles.length - 1]) {
-        formatedString += "-------------------------------"
+        formatedString += "\n-------------------------------"
             + "----------------------------------------\n"
-            + "7. Co-Author list sorted (Total: " + totalCoAuthors + ")\n";
+            + "7. Co-Author list sorted (Total: " + allCoAuthorNames.size()
+            + "):\n";
         // go through the list of all the co authors name and add
         // each name found to the formated string
         for (String arg : allCoAuthorNames) {
@@ -75,7 +74,7 @@ public class PrintOutput {
       }
     }
     // return the formatted string
-    //removes the last unwanted newline break
+    // removes the last unwanted newline break
     String formatedString1 = formatedString.trim();
     return formatedString1;
 
