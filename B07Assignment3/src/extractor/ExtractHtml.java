@@ -4,9 +4,19 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.InputStreamReader;
 import java.net.URL;
-
+/**
+ * Starter code given by Abbas Attarwala
+ * Extracts the html code at the given url
+ * @author Shajan Sivarajah, Abbas Attarwala
+ *
+ */
 public class ExtractHtml{
-  
+  /**
+   * Retrieves the html source code from the give url
+   * @param urlString
+   * @return htlm source text
+   * @throws Exception
+   */
   public static String getHTML(String urlString) throws Exception {
     // create object to store html source text as it is being collected
     StringBuilder html = new StringBuilder();
