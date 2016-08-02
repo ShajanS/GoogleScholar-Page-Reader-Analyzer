@@ -1,9 +1,17 @@
 package outputType;
 
-
+/**
+ * Outputs a formated string according to assignment REQ
+ * @author Shajan Sivarjah
+ *
+ */
 public class PrintOutput{
   
-  
+  /**
+   * Outputs a string formated to requirements with all the wanted information
+   * @param args parameters given (url files/names)
+   * @return A formated string with all the wanted information
+   */
   public static String outputString(String args[]){
     String formatedString = "";
     int totalCoAuthors = 0;
