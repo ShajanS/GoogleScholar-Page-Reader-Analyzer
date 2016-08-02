@@ -20,6 +20,7 @@ public class MyParser {
 
   /**
    * Main function to excute the program
+   * 
    * @param args
    */
   public static void main(String[] args) {
@@ -28,7 +29,7 @@ public class MyParser {
     // create the output string for the desired urls
     outputString = outputType.PrintOutput.outputString(args);
     // if there are two arguments (One holding urls and the other holding
-    // a outputfile name) out the string to a file 
+    // a outputfile name) out the string to a file
     if (args.length >= 2) {
       // Call the method which outputs the stirng to a file
       outputType.FileOutput.outputToFile(outputString, args[1]);
