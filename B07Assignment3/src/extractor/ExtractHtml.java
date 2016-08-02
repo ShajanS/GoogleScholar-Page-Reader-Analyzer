@@ -19,7 +19,7 @@ public class ExtractHtml {
    * @return htlm source text
    * @throws Exception
    */
-  public static String getHTML(String urlString) throws Exception {
+  public static String extractHTML(String urlString) throws Exception {
     // create object to store html source text as it is being collected
     StringBuilder html = new StringBuilder();
     // open connection to given url
