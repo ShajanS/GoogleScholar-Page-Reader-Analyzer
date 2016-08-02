@@ -4,15 +4,17 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.InputStreamReader;
 import java.net.URL;
+
 /**
- * Starter code given by Abbas Attarwala
- * Extracts the html code at the given url
+ * Starter code given by Abbas Attarwala Extracts the html code at the given url
+ * 
  * @author Shajan Sivarajah, Abbas Attarwala
  *
  */
-public class ExtractHtml{
+public class ExtractHtml {
   /**
    * Retrieves the html source code from the give url
+   * 
    * @param urlString
    * @return htlm source text
    * @throws Exception
@@ -33,6 +35,6 @@ public class ExtractHtml{
     htmlbr.close();
     // convert StringBuilder into a String and return it
     return html.toString();
-   }
-  
+  }
+
 }
