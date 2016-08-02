@@ -1,8 +1,8 @@
 //**********************************************************
 //Assignment3:
-//UTORID user_name:
+//UTORID user_name: sivara57
 //
-//Author:
+//Author: Shajan Sivarjah
 //
 //
 //Honor Code: I pledge that this program represents my own
@@ -11,12 +11,17 @@
 //*********************************************************
 package driver;
 
-
+/**
+ * 
+ * @author Shajan Sivarjah
+ *
+ */
 public class MyParser {
 
 /**
-* @param args
-*/
+ * 
+ * @param args
+ */
 public static void main(String[] args) {
   String outputString = "";
   outputString = outputType.PrintOutput.outputString(args);
