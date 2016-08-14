@@ -1,0 +1,366 @@
+Your mark out of 10 is = 10
+
+This assignment has been marked by TA = Kyung Hun Lee
+
+The email address of the TA is = khryan.lee@mail.utoronto.ca
+
+
+
+PART 1) +++SVN CHECKOUT ON YOUR ASSIGNMENT3+++
+A    B07Assignment3/.classpath
+A    B07Assignment3/.project
+A    B07Assignment3/sample1_files
+A    B07Assignment3/sample1_files/chart
+A    B07Assignment3/sample1_files/scholar_logo_md_2011.gif
+A    B07Assignment3/sample1_files/citations
+A    B07Assignment3/sample1.html
+A    B07Assignment3/sample2_files
+A    B07Assignment3/sample2_files/chart
+A    B07Assignment3/sample2_files/scholar_logo_md_2011.gif
+A    B07Assignment3/sample2_files/green_ghost.jpg
+A    B07Assignment3/sample2.html
+A    B07Assignment3/src
+A    B07Assignment3/src/driver
+A    B07Assignment3/src/driver/MyParser.java
+A    B07Assignment3/src/extractor
+A    B07Assignment3/src/extractor/ExtractCoAuthorNames.java
+A    B07Assignment3/src/extractor/RegexCompiler.java
+A    B07Assignment3/src/extractor/ExtractPublicationTitle.java
+A    B07Assignment3/src/extractor/ExtractCitations.java
+A    B07Assignment3/src/extractor/ExtractCitationsPerPublication.java
+A    B07Assignment3/src/extractor/Extracti10Index.java
+A    B07Assignment3/src/extractor/ExtractHtml.java
+A    B07Assignment3/src/extractor/ExtractAuthorNames.java
+A    B07Assignment3/src/test
+A    B07Assignment3/src/test/ExtractCoAuthorNamesTest.java
+A    B07Assignment3/src/test/ExtractPublicationTitleTest.java
+A    B07Assignment3/src/test/ExtractCitationsTest.java
+A    B07Assignment3/src/test/ExtractCitationsPerPublicationTest.java
+A    B07Assignment3/src/test/Extracti10IndexTest.java
+A    B07Assignment3/src/test/ExtractAuthorNameTest.java
+A    B07Assignment3/src/outputType
+A    B07Assignment3/src/outputType/PrintOutput.java
+A    B07Assignment3/src/outputType/FileOutput.java
+A    B07Assignment3/bin
+A    B07Assignment3/libs
+A    B07Assignment3/libs/commons-lang3-3.4-javadoc.jar
+A    B07Assignment3/libs/commons-lang3-3.4.jar
+Checked out revision 72.
+
+
+
+PART 2) +++SVN COMMIT LOGS ON src+++
+------------------------------------------------------------------------
+r71 | sivara57@UTORONTO.CA | 2016-08-01 23:25:19 -0400 (Mon, 01 Aug 2016) | 1 line
+
+removing unwanted class files
+------------------------------------------------------------------------
+r70 | sivara57@UTORONTO.CA | 2016-08-01 23:20:03 -0400 (Mon, 01 Aug 2016) | 1 line
+
+tweaked test cases
+------------------------------------------------------------------------
+r69 | sivara57@UTORONTO.CA | 2016-08-01 23:01:11 -0400 (Mon, 01 Aug 2016) | 1 line
+
+more test cases added
+------------------------------------------------------------------------
+r68 | sivara57@UTORONTO.CA | 2016-08-01 22:54:58 -0400 (Mon, 01 Aug 2016) | 1 line
+
+formated to google req
+------------------------------------------------------------------------
+r67 | sivara57@UTORONTO.CA | 2016-08-01 22:48:10 -0400 (Mon, 01 Aug 2016) | 1 line
+
+fixed if block condition for MyPraser
+------------------------------------------------------------------------
+r66 | sivara57@UTORONTO.CA | 2016-08-01 22:47:41 -0400 (Mon, 01 Aug 2016) | 1 line
+
+fixed error message return type 
+------------------------------------------------------------------------
+r65 | sivara57@UTORONTO.CA | 2016-08-01 22:33:26 -0400 (Mon, 01 Aug 2016) | 1 line
+
+test cases for extractor classes
+------------------------------------------------------------------------
+r64 | sivara57@UTORONTO.CA | 2016-08-01 21:43:30 -0400 (Mon, 01 Aug 2016) | 1 line
+
+formatted to google REQ
+------------------------------------------------------------------------
+r63 | sivara57@UTORONTO.CA | 2016-08-01 21:41:14 -0400 (Mon, 01 Aug 2016) | 1 line
+
+updated format spaces
+------------------------------------------------------------------------
+r62 | sivara57@UTORONTO.CA | 2016-08-01 21:33:46 -0400 (Mon, 01 Aug 2016) | 1 line
+
+class for extracting co Author's names
+------------------------------------------------------------------------
+r61 | sivara57@UTORONTO.CA | 2016-08-01 21:30:52 -0400 (Mon, 01 Aug 2016) | 1 line
+
+finished printoutput class to incorp REQ for outputstring 
+------------------------------------------------------------------------
+r60 | sivara57@UTORONTO.CA | 2016-08-01 20:51:09 -0400 (Mon, 01 Aug 2016) | 1 line
+
+java docs for output files 
+------------------------------------------------------------------------
+r59 | sivara57@UTORONTO.CA | 2016-08-01 20:43:47 -0400 (Mon, 01 Aug 2016) | 1 line
+
+signed honor code
+------------------------------------------------------------------------
+r58 | sivara57@UTORONTO.CA | 2016-08-01 20:42:16 -0400 (Mon, 01 Aug 2016) | 1 line
+
+added more comments and class descriptions (java docs)
+------------------------------------------------------------------------
+r57 | sivara57@UTORONTO.CA | 2016-08-01 19:57:32 -0400 (Mon, 01 Aug 2016) | 1 line
+
+renamed main package
+------------------------------------------------------------------------
+r56 | sivara57@UTORONTO.CA | 2016-08-01 19:51:26 -0400 (Mon, 01 Aug 2016) | 1 line
+
+
+------------------------------------------------------------------------
+r55 | sivara57@UTORONTO.CA | 2016-08-01 19:49:16 -0400 (Mon, 01 Aug 2016) | 1 line
+
+deleting duplicate class file after moved to different location
+------------------------------------------------------------------------
+r54 | sivara57@UTORONTO.CA | 2016-08-01 19:48:57 -0400 (Mon, 01 Aug 2016) | 1 line
+
+deleting duplicate class file after moved to different location
+------------------------------------------------------------------------
+r53 | sivara57@UTORONTO.CA | 2016-08-01 19:47:37 -0400 (Mon, 01 Aug 2016) | 1 line
+
+uploading unit test case package
+------------------------------------------------------------------------
+r52 | sivara57@UTORONTO.CA | 2016-08-01 19:47:06 -0400 (Mon, 01 Aug 2016) | 1 line
+
+tweaked the extracting citation classes to meet req of assignment(total # of the first 5 citations)
+------------------------------------------------------------------------
+r51 | sivara57@UTORONTO.CA | 2016-08-01 19:45:46 -0400 (Mon, 01 Aug 2016) | 1 line
+
+created a method to extract the number of total coAuthors present
+------------------------------------------------------------------------
+r50 | sivara57@UTORONTO.CA | 2016-08-01 19:44:20 -0400 (Mon, 01 Aug 2016) | 1 line
+
+tweaked extractpublicationtitle to only return the title for the first 3 
+------------------------------------------------------------------------
+r49 | sivara57@UTORONTO.CA | 2016-08-01 19:43:27 -0400 (Mon, 01 Aug 2016) | 1 line
+
+updated MyPraser to handle the options between outputting to a file and or printing on screen
+------------------------------------------------------------------------
+r48 | sivara57@UTORONTO.CA | 2016-08-01 19:41:30 -0400 (Mon, 01 Aug 2016) | 1 line
+
+Created classes that handle the output of the information extracted from the web page (output to file or print on console)
+------------------------------------------------------------------------
+r47 | sivara57@UTORONTO.CA | 2016-08-01 16:42:38 -0400 (Mon, 01 Aug 2016) | 1 line
+
+added more format req to outputformat class
+------------------------------------------------------------------------
+r46 | sivara57@UTORONTO.CA | 2016-08-01 16:41:34 -0400 (Mon, 01 Aug 2016) | 1 line
+
+fixed return type for regexcompiler
+------------------------------------------------------------------------
+r45 | sivara57@UTORONTO.CA | 2016-08-01 14:18:38 -0400 (Mon, 01 Aug 2016) | 1 line
+
+changed the return type from instead of printing out it just return a string for all the extraction methods
+------------------------------------------------------------------------
+r44 | sivara57@UTORONTO.CA | 2016-08-01 14:17:42 -0400 (Mon, 01 Aug 2016) | 1 line
+
+created a class to handle the printing of the output
+------------------------------------------------------------------------
+r43 | sivara57@UTORONTO.CA | 2016-08-01 00:13:14 -0400 (Mon, 01 Aug 2016) | 1 line
+
+created a method for citations per publication
+------------------------------------------------------------------------
+r42 | sivara57@UTORONTO.CA | 2016-07-31 23:52:16 -0400 (Sun, 31 Jul 2016) | 1 line
+
+Created method for Publication titles fetcher
+------------------------------------------------------------------------
+r41 | sivara57@UTORONTO.CA | 2016-07-31 23:23:23 -0400 (Sun, 31 Jul 2016) | 1 line
+
+fixed regex html code issue 
+------------------------------------------------------------------------
+r40 | sivara57@UTORONTO.CA | 2016-07-31 23:22:58 -0400 (Sun, 31 Jul 2016) | 1 line
+
+Refactored version of myparser after code shifts
+------------------------------------------------------------------------
+r39 | sivara57@UTORONTO.CA | 2016-07-31 23:22:30 -0400 (Sun, 31 Jul 2016) | 1 line
+
+created method for i10 Index value 
+------------------------------------------------------------------------
+r38 | sivara57@UTORONTO.CA | 2016-07-31 22:13:54 -0400 (Sun, 31 Jul 2016) | 1 line
+
+reformatted author names method
+------------------------------------------------------------------------
+r37 | sivara57@UTORONTO.CA | 2016-07-31 22:02:46 -0400 (Sun, 31 Jul 2016) | 1 line
+
+updated class names and deleted unwanted files
+------------------------------------------------------------------------
+r36 | sivara57@UTORONTO.CA | 2016-07-31 22:00:53 -0400 (Sun, 31 Jul 2016) | 1 line
+
+renamed class files
+------------------------------------------------------------------------
+r35 | sivara57@UTORONTO.CA | 2016-07-31 21:56:58 -0400 (Sun, 31 Jul 2016) | 1 line
+
+created a public method to retrieve info at the given regex
+------------------------------------------------------------------------
+r34 | sivara57@UTORONTO.CA | 2016-07-31 21:52:58 -0400 (Sun, 31 Jul 2016) | 1 line
+
+created the method to find number of citations from the webpage
+------------------------------------------------------------------------
+r33 | sivara57@UTORONTO.CA | 2016-07-31 21:27:40 -0400 (Sun, 31 Jul 2016) | 1 line
+
+moved gethtml helper function from main driver to separate class 
+------------------------------------------------------------------------
+r32 | sivara57@UTORONTO.CA | 2016-07-30 20:12:26 -0400 (Sat, 30 Jul 2016) | 1 line
+
+Made a new package to contain all the files for extracting each component from the html code, moved the author extractor method from Myparser to its own file.
+------------------------------------------------------------------------
+r26 | attarwal@UTORONTO.CA | 2016-07-24 10:22:38 -0400 (Sun, 24 Jul 2016) | 1 line
+
+Starter code by instructor
+------------------------------------------------------------------------
+
+
+
+PART 3) +++SVN COMMIT LOGS ON test+++
+------------------------------------------------------------------------
+r70 | sivara57@UTORONTO.CA | 2016-08-01 23:20:03 -0400 (Mon, 01 Aug 2016) | 1 line
+
+tweaked test cases
+------------------------------------------------------------------------
+r69 | sivara57@UTORONTO.CA | 2016-08-01 23:01:11 -0400 (Mon, 01 Aug 2016) | 1 line
+
+more test cases added
+------------------------------------------------------------------------
+r68 | sivara57@UTORONTO.CA | 2016-08-01 22:54:58 -0400 (Mon, 01 Aug 2016) | 1 line
+
+formated to google req
+------------------------------------------------------------------------
+r65 | sivara57@UTORONTO.CA | 2016-08-01 22:33:26 -0400 (Mon, 01 Aug 2016) | 1 line
+
+test cases for extractor classes
+------------------------------------------------------------------------
+r53 | sivara57@UTORONTO.CA | 2016-08-01 19:47:37 -0400 (Mon, 01 Aug 2016) | 1 line
+
+uploading unit test case package
+------------------------------------------------------------------------
+
+
+
+PART 4) +++HONOR CODE?+++
+// **********************************************************
+// Assignment3:
+// UTORID user_name: sivara57
+//
+// Author: Shajan Sivarjah
+//
+//
+// Honor Code: I pledge that this program represents my own
+// program code and that I have coded on my own. I received
+// help from no one in designing and debugging my program.
+// *********************************************************
+package driver;
+
+/**
+Marks Deductions here: 
+
+
+
+PART 5) +++FOLLOWING LINES ARE GREATER THAN 80 CHARACTERS+++
+
+
+
+
+PART 6) +++IDE FILES+++
+You have committed IDE files into your SVN repository
+
+
+
+Part 7) +++ COMPILING YOUR ASSIGNMENT +++
+Buildfile: /h/u1/attarwal/Summer2016Assignment3Marking/group_0052/B07Assignment3/buildsrc.xml
+
+compile:
+    [javac] /h/u1/attarwal/Summer2016Assignment3Marking/group_0052/B07Assignment3/buildsrc.xml:10: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 11 source files to /h/u1/attarwal/Summer2016Assignment3Marking/group_0052/B07Assignment3/bin
+
+BUILD SUCCESSFUL
+Total time: 1 second
+
+
+
+Part 8) +++RUNNING TEST CASE1 WITH NO OUTPUT FILE+++ with dj.html
+-----------------------------------------------------------------------
+1. Name of Author:
+	Deepak Jagdish
+2. Number of All Citations:
+	23
+3. Number of i10-index after 2009:
+	0
+4. Title of the first 3 publications:
+	1-   Nokia internet pulse: a long term deployment and iteration of a twitter visualization
+	2-   Real time collaborative video annotation using Google App Engine and XMPP protocol
+	3-   Sonic Grid: an auditory interface for the visually impaired to navigate GUI-based environments
+5. Total paper citation (first 5 papers):
+	23
+6. Total Co-Authors:
+	5
+
+-----------------------------------------------------------------------
+7. Co-Author list sorted (Total: 5):
+Abbas Attarwala
+Blair MacIntyre
+Joseph 'Jofish' Kaye
+Yan Xu
+rahul sawhney
+
+
+Part 9) +++RUNNING TEST CASE2 WITH NO OUTPUT FILE+++ with dj.html and rs.html
+-----------------------------------------------------------------------
+1. Name of Author:
+	Deepak Jagdish
+2. Number of All Citations:
+	23
+3. Number of i10-index after 2009:
+	0
+4. Title of the first 3 publications:
+	1-   Nokia internet pulse: a long term deployment and iteration of a twitter visualization
+	2-   Real time collaborative video annotation using Google App Engine and XMPP protocol
+	3-   Sonic Grid: an auditory interface for the visually impaired to navigate GUI-based environments
+5. Total paper citation (first 5 papers):
+	23
+6. Total Co-Authors:
+	5
+-----------------------------------------------------------------------
+1. Name of Author:
+	rahul sawhney
+2. Number of All Citations:
+	33
+3. Number of i10-index after 2009:
+	1
+4. Title of the first 3 publications:
+	1-   On fast exploration in 2D and 3D terrains with multiple robots
+	2-   Sonic Grid: an auditory interface for the visually impaired to navigate GUI-based environments
+	3-   Multi robotic exploration with communication requirement to a fixed base station
+5. Total paper citation (first 5 papers):
+	33
+6. Total Co-Authors:
+	0
+
+-----------------------------------------------------------------------
+7. Co-Author list sorted (Total: 5):
+Abbas Attarwala
+Blair MacIntyre
+Joseph 'Jofish' Kaye
+Yan Xu
+rahul sawhney
+
+
+Part 10) +++RUNNING TEST CASE3 WITH OUTPUT FILE+++ with dj.html and rs.html
+
+
+
+Part 11) +++ Compiling your Junit +++
+Buildfile: /h/u1/attarwal/Summer2016Assignment3Marking/group_0052/B07Assignment3/buildtest.xml
+
+compile:
+    [javac] /h/u1/attarwal/Summer2016Assignment3Marking/group_0052/B07Assignment3/buildtest.xml:10: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 6 source files to /h/u1/attarwal/Summer2016Assignment3Marking/group_0052/B07Assignment3/bin
+
+BUILD SUCCESSFUL
+Total time: 1 second
